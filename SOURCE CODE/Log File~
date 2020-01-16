@@ -1,0 +1,53 @@
+  
+Version 0.1 A:
+--------------
+* Created User interface.
+* Constructed main script file.
+
+Version 0.2 A:
+--------------
+* Added Zyxel ATM Configuration.
+
+Version 0.3 A:
+--------------
+* Added Aethra 2w configuration.
+* Improved UI by adding colored text.
+
+Version 0.4 A:
+--------------
+* Added Adtrain modem configuration.
+* Added modem images.
+
+Version 0.5 A:
+--------------
+* Added Paradyne 9788 Modem configuration.
+* Added Aethra modem Zyxel DSLAM mode.
+
+Version 0.6 B:
+--------------
+* Added Paradyne 1740 configuration.
+* Added Aethra EFM Configuration.
+
+Version 0.7 B:
+--------------
+* Documentation section added.
+* Improved adtrain configuration handling.
+
+Version 1.0 RC1: 
+----------------
+* Overall software check for first release.
+
+Version 1.0 RC2:
+----------------
+* Fixed Zyxel 700 series bug.
+* Added seperate section for zyxel 791 M/R.
+* Added Configuration modes for Aethra modem.
+* Transfered core files to seperate folder.
+* Improved Software Logo.
+* Added Configuration modes for Zyxel 792/3 M/Rs.
+
+Version 1.0 Release 3/11/13:
+----------------------------
+* Added Aethra EFM Bridge Mode.
+
+

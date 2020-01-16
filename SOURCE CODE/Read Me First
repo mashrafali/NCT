@@ -1,0 +1,36 @@
+** Before running this software on a linux environment the following points needs to be executed:
+    [Below steps have already been performed for those who have the Virtual machine pre-installed]
+
+1) execute the following command:
+---------------------------------
+
+sudo apt-get update && sudo apt-get upgrade && sudo apt-get remove brltty && sudo apt-get install gcin && sudo apt-get install screen
+
+
+2) To open Serial Port permissions:
+--------------------------------
+
+a) sudo addgroup $USERNAME dialout
+b) sudo gedit /etc/udev/rules.d/40-permissions.rules
+    add this to the file with out the "{ }"
+    {KERNEL=="ttyS[0-9]", GROUP="dialout", MODE="0777"}
+c) sudo /etc/init.d/udev restart 
+
+
+
+
+
+#################################################################
+
+--> For any feedback or bugs/errors faced, please contact Mohamed Ashraf Directly
+
+
+ Have FUN !
+
+
+
+
+
+
+
+
